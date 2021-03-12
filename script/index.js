@@ -1,0 +1,13 @@
+$('#button1').click(function(){
+    $('#pic').hide(2000);
+    $('#dohere').show(2000);
+    $('#hereimg').show(2000);
+});
+$('#button2').click(function(){
+    $('#pic2').hide(2000);
+    $('#career').show(2000);
+    $('#careerimg').show(2000);
+});
+$('#button3').click(function(){
+    $('#video').show(3000);
+});
