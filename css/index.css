@@ -99,8 +99,8 @@ body #dohere {
 
 body #career {
   position: absolute;
-  left: 57rem;
-  top: 35.1rem;
+  left: 56rem;
+  top: 42.1rem;
   width: 35rem;
   border: #a0a0a0 0.3rem groove;
   display: none;
@@ -124,7 +124,7 @@ body #picture {
 body #pic2 {
   position: absolute;
   left: 66rem;
-  bottom: 1rem;
+  top: 37rem;
   width: 20rem;
   height: 20rem;
   border: #a0a0a0 0.3rem groove;
@@ -132,6 +132,49 @@ body #pic2 {
           box-shadow: 4px 4px 4px 4px #353535;
 }
 
+body #pic3{
+  position: absolute;
+  top: 37rem;
+    left: 7rem;
+    width: 20rem;
+    height: 20rem;
+    border: #a0a0a0 .3rem groove;
+        box-shadow:4px 4px 4px 4px #353535;
+}
+
+body #pic4 {
+  position: absolute;
+  left: 66rem;
+  top: 15rem;
+  width: 20rem;
+  height: 20rem;
+  border: #a0a0a0 0.3rem groove;
+  -webkit-box-shadow: 4px 4px 4px 4px #353535;
+          box-shadow: 4px 4px 4px 4px #353535;
+}
+
+body #pic5{
+  display: none;
+  position: absolute;
+  top: 11rem;
+    left: 4rem;
+    width: 20rem;
+    height: 7rem;
+    border: #a0a0a0 .3rem groove;
+        box-shadow:4px 4px 4px 4px #353535;
+}
+
+body #pic6 {
+  display: none;
+  position: absolute;
+  left: 70.5rem;
+  top: 11rem;
+  width: 20rem;
+  height: 7rem;
+  border: #a0a0a0 0.3rem groove;
+  -webkit-box-shadow: 4px 4px 4px 4px #353535;
+          box-shadow: 4px 4px 4px 4px #353535;
+}
 body #picture2 {
   margin-left: auto;
   display: block;
@@ -169,10 +212,10 @@ body #careerimg {
 
 body #soft {
   position: absolute;
-  left: 57rem;
+  left: 56rem;
   width: 35rem;
   height: 22rem;
-  bottom: 12rem;
+  bottom:5rem;
   border: #a0a0a0 0.3rem groove;
 }
 
@@ -191,4 +234,33 @@ body #left {
   width: 20rem;
   height: 20rem;
 }
+body table{
+  position: relative;
+  top: 1rem;
+  width: 35rem;
+  height: 7rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color: white;
+  border: #a0a0a0 0.3rem groove;
+  box-shadow: 4px 4px 4px 4px #353535;
+}
+body td{
+  color: #ec8908;
+  text-align: center;
+  width: 30rem;
+  
+}
+body h6{
+  display: flex;
+  justify-content: space-evenly;
+  font-family: tech;
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+body a{
+  color: #ec8908;
+}
+
 /*# sourceMappingURL=index.css.map */

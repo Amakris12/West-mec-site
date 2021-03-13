@@ -115,6 +115,23 @@ background-size: cover;
         border: $text-color .3rem groove;
         box-shadow:4px 4px 4px 4px #353535;
     }
+    #pic3{
+        position: absolute;
+        left: 2rem;
+        width: 20rem;
+        height: 20rem;
+        border: $text-color .3rem groove;
+        box-shadow:4px 4px 4px 4px #353535;
+    }
+    #pic4{
+        position: absolute;
+        left: 66rem;
+        top: 17rem;
+        width: 20rem;
+        height: 20rem;
+        border: $text-color .3rem groove;
+        box-shadow:4px 4px 4px 4px #353535;
+    }
     #picture2{
         margin-left: auto;
         display: block;
@@ -166,4 +183,32 @@ background-size: cover;
         width: 20rem;
         height: 20rem;
     }
+    a{
+        color: #ec8908;
+    }
+    h6{
+        display: flex;
+        justify-content: space-evenly;
+        font-family: tech;
+        margin-top: 2rem;
+        font-size: 2rem;
+    }
+    td{
+        color: #ec8908;
+        text-align: center;
+        width: 30rem;
+        
+    }
+    table{
+        position: relative;
+        top: 1rem;
+        width: 35rem;
+        height: 7rem;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        background-color: white;
+        border: #a0a0a0 0.3rem groove;
+        box-shadow: 4px 4px 4px 4px #353535;
+      }
 }
